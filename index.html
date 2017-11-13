@@ -1,13 +1,171 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="./css/css.css">
+	<style>
+     *{
+     	margin: 0; padding: 0;
+     }
+
+     #up{
+     	height: 70px;
+     	background-color: black;
+     	border-top:5px solid red;
+     }
+     .normal,.check{
+     	width: 100px;
+     	height: 30px;
+     	float: left;
+     	margin-left: 10%;
+     	overflow: hidden;
+     	font-weight: bold;
+     	
+     	
+     	
+     }
+     .check{
+       background-color: white;
+       color: black;
+       text-align: center;
+     	line-height: 30px;
+     }
+     .normal{
+     	color: white;
+     	text-align: center;
+     	line-height: 30px;
+     }
+     .normal:hover{
+       background-color: white;
+       color: black;
+     }
+     #qiang{
+     	height: 20px;
+     	clear: both;
+     }
+     #center{
+     	 width: 810px;
+     	 margin: 0 auto;
+
+     }
+     .box,.box1{
+     	width: 328px;
+     	float: left;
+     	margin-left: 40px;
+
+     	
+     }
+     .box1{
+     	margin-top: 40px;
+     }
+     img{
+     	width: 328px;
+     	height: 180px;
+     	float: left;
+
+     }
+     #box2,#box3{
+     	margin-top:20px; 
+     	width: 150px;
+     	height: 30px;
+     	font-weight: bold;
+
+     	text-align: center;
+     	line-height: 30px;
+        color: white;
+
+     }
+     #box2{
+     	background-color: red;
+     	
+     }
+     #box3{
+     	background-color: black;
+
+     }
+     .qiang2{
+     	clear: both;
+     }
+     #box3:hover{
+     	background-color:red;
+     }
+     span{
+     	font-size: 14px;
+     }
+     #down{
+     	height: 100px;
+     	background: black;
+     }
+     #di{
+     	margin-top: 20px;
+     	margin-left:46%;
+     	color: white;
+     	font-weight: bold;
+
+
+     }
+     #xiaotu{
+     	width: 240px;
+     	margin: 0 auto;
+     	background-color: black;
+
+     }
+     #pict{
+       width: 50px;
+       height: 50px;
+       opacity: 0.9;
+       margin-left: 10px;
+     }
+     #pict:hover{
+     	opacity: 0.5;
+     }
+
+	</style>
 </head>
 <body>
-	<div>
-		个人简历
+	<div id="up">
+		<div  class="check">HOME</div>
+		<div  class="normal">ABOUT US</div>
+		<div  class="normal">SERVICES</div>
+		<div  class="normal">GALLERY</div>
+		<div  class="normal">CONTACT</div>
+	</div>
+	<div id="qiang"></div>
+	<div id="center">
+		<div class="box">
+		<img src="tuku/pic.jpg">
+		<div class="qiang2"></div>
+		<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</span>
+		<div id="box2">READ MORE</div>
+		</div>
+		<div class="box">
+		<img src="tuku/pic2.jpg">
+		<div class="qiang2"></div>
+		<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</span>
+		<div id="box3">READ MORE</div>
+		</div>
+		<div class="box1">
+		<img src="tuku/pic1.jpg">
+		<div class="qiang2"></div>
+		<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</span>
+		<div id="box3">READ MORE</div>
+		</div>
+		<div class="box1">
+		<img src="tuku/pic.jpg">
+		<div class="qiang2"></div>
+		<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</span>
+		<div id="box3">READ MORE</div>
+		</div>
+	</div>
+	<div class="qiang2"></div>
+	<div id="down">
+		<div id="di">CONTACATUS</div>
+		<div id="xiaotu">
+		<img src="tuku/tw.png" alt=""  id="pict"/>
+		<img src="tuku/g+.png" alt=""  id="pict"/>
+		<img src="tuku/fb.png" alt=""  id="pict"/>
+		<img src="tuku/rss.png" alt=""  id="pict"/>
+		</div>
 	</div>
 </body>
 </html>
